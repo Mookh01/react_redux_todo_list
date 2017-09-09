@@ -1,0 +1,58 @@
+@import url(https://fonts.googleapis.com/css?family=Lato);
+
+body {
+  text-align: center;
+  margin: 150px;
+  padding: 0;
+  font-family: sans-serif;
+  background-color: blue;
+}
+
+p{
+  padding: 15px;
+  margin-left: 15px;
+}
+h1 {
+  /*font-family: fantasy;*/
+  font-size: 3em;
+}
+li {
+  padding: 10px;
+  margin: 0px 200px 0px 200px;
+  list-style: none;
+  border: 1px solid rgba(0, 0, 0, .4);
+  border-radius: 2px;
+  background-color: rgba(250, 250, 250, .8);
+  box-shadow: 0 2px 3px 0 rbga(0, 0, 0, .6);
+  font-size: 20px;
+}
+
+li:hover {
+  background: rgba(0, 0, 0, 0.1);
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, .2);
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 15px;
+  /*box-shadow: 0 9px #999;*/
+}
+
+input {
+  border-radius: 5px;
+  width: 200px;
+  height:50px;
+    font-size: 24px;
+  margin-right: 20px;
+}
